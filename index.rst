@@ -5,6 +5,8 @@ Creative Coding Workshop
    :maxdepth: 2
    :caption: Contents:
 
+   getting-started
+
 Indices and tables
 ==================
 
