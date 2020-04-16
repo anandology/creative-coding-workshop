@@ -1,6 +1,17 @@
 Getting Started
 ===============
 
+Quick Reference
+---------------
+
+circle
+~~~~~~
+
+The function `circle` draws a circle at 
+
+   circle(200, 100, 50)
+
+
 Exercises
 ---------
 

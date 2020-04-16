@@ -1,5 +1,11 @@
-Creative Coding Workshop
-========================
+Creative Coding
+===============
+
+*The Joy of computer programming through generative art!*
+
+.. figure:: images/rings.png
+   :scale: 50 %
+   :alt: Creative Coding
 
 The Creative Coding Workshop introduces the joy of programming to young students through generative art.
 
@@ -17,3 +23,4 @@ Topics
    :maxdepth: 2
 
    getting-started
+   elements-of-programming
