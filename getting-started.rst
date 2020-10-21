@@ -7,9 +7,20 @@ Quick Reference
 circle
 ~~~~~~
 
-The function `circle` draws a circle at 
+The function ``circle`` draws a circle.
+
+It takes three arguments, the x and y co-ordinates of the center and the diameter.
 
    circle(200, 100, 50)
+
+rect
+~~~~
+
+The function ``rect`` draws a rectangle. It takes four arguments, the x and y
+co-ordinates of the top-left corner and width and height of the rectangle.
+::
+
+    rect(200, 100, 50, 75);
 
 
 Exercises
