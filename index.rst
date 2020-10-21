@@ -24,3 +24,5 @@ Topics
 
    getting-started
    elements-of-programming
+   repeating
+   random
