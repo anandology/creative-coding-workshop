@@ -2,13 +2,29 @@
 var objects = [];
 var width = 400;
 var height = 400;
+
+var stack = [];
+
 var style = {
   stroke: 'black',
+  strokeWeight: null,
   fill: 'none'
+}
+
+function push() {
+  stack.push(style);
+  reset();
+}
+
+function pop() {
+  style = stack.pop();
 }
 
 function stroke(color) {
   style.stroke = color;
+}
+function strokeWeight(weight) {
+  style.strokeWeight = weight;
 }
 
 function fill(color) {
@@ -23,13 +39,17 @@ function reset() {
   clear();
   style = {
     stroke: 'black',
-    fill: 'none'
+    fill: 'none',
+    strokeWeight: null
   }
 }
 
 function addObject(tag, attrs) {
   attrs.fill = attrs.fill || style.fill;
   attrs.stroke = attrs.stroke || style.stroke;
+  if (style.strokeWeight !== null) {
+    attrs["stroke-width"] = attrs["stroke-width"] || style.strokeWeight;
+  }
   objects.push({tag: tag, attrs: attrs});
 }
 
@@ -47,6 +67,14 @@ function dot(x, y) {
 
 function rect(x, y, w, h) {
   addObject("rect", {"x": x, "y": y, "width": w, "height": h});
+}
+
+// returns a random number between 0 and n-1
+function random(n) {
+  if (n === undefined) {
+    n = 1;
+  }
+  return n * Math.random()
 }
 
 function drawGrid() {

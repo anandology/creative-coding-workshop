@@ -1,6 +1,23 @@
 Randomness
 **********
 
+Example: Random Concentric Circles
+==================================
+
+.. figure:: images/random-concentric-circles.svg
+   :width: 200
+   :alt: random concentric circles
+
+Example: Random Touching Circles
+==================================
+
+.. figure:: images/random-touching-circles.svg
+   :width: 200
+   :alt: random touching circles
+
+
+
+
 
 Exercises
 =========
@@ -24,3 +41,12 @@ Exercises
 .. figure:: images/random-circles-in-grid.png
    :scale: 50 %
    :alt: random circles in a grid
+
+**Problem 4.4** Write a program that draws one of the two diagonals in random for each cell of a 4x4 grid.
+The grid is shown with a light color in the picture for your refefence and you don't need to draw it.
+
+.. figure:: images/rand10.svg
+   :width: 200
+   :alt: rand10
+
+Try changing the grid size to 16x16 or 32x32.

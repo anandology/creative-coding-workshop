@@ -27,3 +27,4 @@ Topics
    elements-of-programming
    repeating
    random
+   problems
